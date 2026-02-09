@@ -11,30 +11,30 @@ export default function GalleryPage() {
   const categories = ['All', 'Sleeves', 'Neck Tats', 'Hand Tats', 'Chest Tats', 'Back Tats', 'Face Tats', 'Belly Tats'];
   
   const tattoos = [
-    { id: 1, category: 'Sleeves', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 2, category: 'Sleeves', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 3, category: 'Sleeves', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 4, category: 'Sleeves', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 5, category: 'Sleeves', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 6, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 7, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 8, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 9, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 10, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 11, category: 'Neck Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 12, category: 'Hand Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 13, category: 'Hand Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 14, category: 'Hand Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 15, category: 'Hand Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 16, category: 'Hand Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 17, category: 'Chest Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 18, category: 'Chest Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 19, category: 'Chest Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 20, category: 'Back Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 21, category: 'Back Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 22, category: 'Face Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 23, category: 'Face Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
-    { id: 24, category: 'Belly Tats', img: 'https://images.unsplash.com', span: 'row-span-1' },
+    { id: 1, category: 'Sleeves', img: '/sleeve1.png', span: 'row-span-1' },
+    { id: 2, category: 'Sleeves', img: '/sleeve2.png', span: 'row-span-1' },
+    { id: 3, category: 'Sleeves', img: '/sleeve3.png', span: 'row-span-1' },
+    { id: 4, category: 'Sleeves', img: '/sleeve4.png', span: 'row-span-1' },
+    { id: 5, category: 'Sleeves', img: '/sleeve5.png', span: 'row-span-1' },
+    { id: 6, category: 'Neck Tats', img: '/neck1.png', span: 'row-span-1' },
+    { id: 7, category: 'Neck Tats', img: '/neck2.png', span: 'row-span-1' },
+    { id: 8, category: 'Neck Tats', img: '/neck3.png', span: 'row-span-1' },
+    { id: 9, category: 'Neck Tats', img: '/neck4.png', span: 'row-span-1' },
+    { id: 10, category: 'Neck Tats', img: '/neck5.png', span: 'row-span-1' },
+    { id: 11, category: 'Neck Tats', img: '/neck6.png', span: 'row-span-1' },
+    { id: 12, category: 'Hand Tats', img: '/hand1.png', span: 'row-span-1' },
+    { id: 13, category: 'Hand Tats', img: '/hand2.png', span: 'row-span-1' },
+    { id: 14, category: 'Hand Tats', img: '/hand3.png', span: 'row-span-1' },
+    { id: 15, category: 'Hand Tats', img: '/hand4.png', span: 'row-span-1' },
+    { id: 16, category: 'Hand Tats', img: '/hand5.png', span: 'row-span-1' },
+    { id: 17, category: 'Chest Tats', img: '/chest1.png', span: 'row-span-1' },
+    { id: 18, category: 'Chest Tats', img: '/chest2.png', span: 'row-span-1' },
+    { id: 19, category: 'Chest Tats', img: '/chest3.png', span: 'row-span-1' },
+    { id: 20, category: 'Back Tats', img: '/back1.png', span: 'row-span-1' },
+    { id: 21, category: 'Back Tats', img: '/back2.png', span: 'row-span-1' },
+    { id: 22, category: 'Face Tats', img: '/face1.png', span: 'row-span-1' },
+    { id: 23, category: 'Face Tats', img: '/face2.png', span: 'row-span-1' },
+    { id: 24, category: 'Belly Tats', img: '/belly.png', span: 'row-span-1' },
   ];
 
   const filteredTattoos = filter === 'All' ? tattoos : tattoos.filter(t => t.category === filter);
@@ -63,7 +63,14 @@ export default function GalleryPage() {
           </div>
         </div>
       </nav>
-
+<div className="bg-black text-white p-4 text-center border-b-8 border-black">
+  <h2 className="text-2xl font-black uppercase italic tracking-tighter">
+    Viewing: <span className="text-[#880808]">{filter}</span>
+  </h2>
+  <p className="text-[9px] font-bold opacity-50 uppercase tracking-[0.2em] mt-1">
+    Click any image to enlarge // Portfolio Archive
+  </p>
+</div>
       
       <section className="p-4 md:p-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[200px]">
