@@ -93,7 +93,7 @@ const removeFile = (index: number) => {
                 <span className="text-[10px] font-black uppercase text-gray-400 group-hover:text-black">Upload Images (Drag & Drop)</span>
               </div>
 
-              {/* Preview Grid */}
+            
               {files.length > 0 && (
                 <div className="grid grid-cols-4 gap-2 pt-2">
                   {files.map((file, idx) => (

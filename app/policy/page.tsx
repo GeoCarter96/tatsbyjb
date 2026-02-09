@@ -21,7 +21,7 @@ export default function PolicyPage() {
       <section className="py-16 px-4 flex justify-center">
         <div className="w-full max-w-3xl bg-white border-2 border-black p-8 md:p-16 relative shadow-[20px_20px_0px_#ebebeb]">
           
-          {/* Header */}
+         
           <div className="border-b-8 border-black pb-8 mb-12">
             <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
               Shop <span className="text-[#880808]">Policy</span>
@@ -31,10 +31,10 @@ export default function PolicyPage() {
             </p>
           </div>
 
-          {/* Policy Grid */}
+          
           <div className="space-y-12">
             
-            {/* Rule 01 */}
+           
             <div className="relative pl-12">
               <span className="absolute left-0 top-0 text-4xl font-black text-gray-200">01</span>
               <h3 className="text-xl font-black uppercase mb-4 flex items-center gap-3">
@@ -45,7 +45,7 @@ export default function PolicyPage() {
               </p>
             </div>
 
-            {/* Rule 02 */}
+            
             <div className="relative pl-12">
               <span className="absolute left-0 top-0 text-4xl font-black text-gray-200">02</span>
               <h3 className="text-xl font-black uppercase mb-4 flex items-center gap-3">
@@ -56,7 +56,7 @@ export default function PolicyPage() {
               </p>
             </div>
 
-            {/* Rule 03 */}
+           
             <div className="relative pl-12">
               <span className="absolute left-0 top-0 text-4xl font-black text-gray-200">03</span>
               <h3 className="text-xl font-black uppercase mb-4 flex items-center gap-3">
@@ -67,7 +67,7 @@ export default function PolicyPage() {
               </p>
             </div>
 
-            {/* Fine Print Footer */}
+            
             <div className="mt-16 pt-8 border-t-2 border-dashed border-gray-200">
               <div className="flex items-start gap-4 bg-gray-50 p-6">
                 <FileText size={24} className="shrink-0 opacity-20" />
@@ -79,7 +79,7 @@ export default function PolicyPage() {
 
           </div>
 
-          {/* Industrial Stamp */}
+          
           <div className="absolute -bottom-6 -right-6 w-32 h-32 border-4 border-[#880808] rounded-full flex items-center justify-center -rotate-12 bg-white hidden md:flex">
              <div className="text-[#880808] font-black text-center text-[10px] uppercase leading-none px-2">
                 Official<br/>Studio<br/>Bylaws<br/>2026

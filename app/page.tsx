@@ -84,11 +84,11 @@ export default function BloodyWhiteGrungePage() {
         </div>
       </section>
 
-      {/* --- MISSION & BIO SECTION --- */}
+    
       <section className="py-24 bg-white border-t-8 border-black relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-8 relative z-10 grid md:grid-cols-2 gap-16 items-start">
           
-          {/* Mission Column */}
+          
           <div className="text-left">
             <div className="inline-block mb-6 bg-[#880808] text-white px-3 py-1 text-[10px] font-black uppercase tracking-widest">
            SHOP OPEN MON - SUN
@@ -103,7 +103,7 @@ export default function BloodyWhiteGrungePage() {
             </p>
           </div>
 
-          {/* Artist Bio Column */}
+          
           <div className="relative p-8 border-4 border-black bg-[#f8f8f8] shadow-[10px_10px_0px_#880808]">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-16 h-16 bg-black flex items-center justify-center text-white">
@@ -125,7 +125,7 @@ export default function BloodyWhiteGrungePage() {
               </p>
             </div>
 
-            {/* CALL TO ACTION BUTTON */}
+           
             <Link 
               href="/booking" 
               className="group flex items-center justify-between bg-black text-white p-4 font-black uppercase text-xs tracking-widest hover:bg-[#880808] transition-all"
@@ -134,20 +134,20 @@ export default function BloodyWhiteGrungePage() {
               <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
             </Link>
 
-            {/* Status Stamp */}
+            
             <div className="absolute -top-4 -right-4 bg-white border-2 border-black p-2 -rotate-12 shadow-sm">
                 <p className="text-[8px] font-black uppercase leading-none">North Philly<br/>Verified Tech</p>
             </div>
           </div>
         </div>
 
-        {/* Background "Ghost" text */}
+       
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[15rem] font-black text-gray-50 opacity-[0.03] select-none pointer-events-none uppercase">
           TatsByJB
         </div>
       </section>
 
-      {/* Clinical Gallery Section */}
+   
       <section id="gallery" className="py-24 bg-[#ebebeb] relative overflow-hidden border-y-4 border-black">
         <div className="max-w-6xl mx-auto px-8">
           <div className="mb-16">

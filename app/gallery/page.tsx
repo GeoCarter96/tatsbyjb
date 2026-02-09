@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { ArrowLeft, Maximize2, X, Filter } from 'lucide-react';
+import { ArrowLeft, Maximize2, X, Instagram, } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 
@@ -93,7 +93,7 @@ export default function GalleryPage() {
                 </div>
               </div>
 
-              {/* Data Tag */}
+             
               <div className="absolute bottom-2 left-2 bg-white px-2 py-1 border-2 border-black">
                 <span className="text-[8px] font-black uppercase tracking-tighter text-black">{tattoo.category} // ID_{tattoo.id}</span>
               </div>
@@ -101,8 +101,23 @@ export default function GalleryPage() {
           ))}
         </div>
       </section>
+       <footer className="p-8 mt-16 border-t-8 border-black bg-gray-50">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+              <p className="text-[10px] font-black uppercase text-gray-500">© 2026 JB Studios Philly // All Rights Reserved</p>
+              
+              <a 
+                href="https://www.instagram.com/tatsbyjb1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-black text-white py-4 px-8 font-black uppercase tracking-widest hover:bg-[#880808] transition-all shadow-[6px_6px_0px_#ccc] flex items-center gap-3"
+              >
+                <Instagram size={18} />
+                Follow Us For More
+              </a>
+          </div>
+      </footer>
 
-      {/* Lightbox Modal */}
+     
       <AnimatePresence>
         {selectedImage && (
           <motion.div

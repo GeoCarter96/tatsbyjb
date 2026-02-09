@@ -71,14 +71,14 @@ export default function PricesPage() {
             </ul>
           </div>
 
-          {/* Call to Action */}
+         
           <div className="mt-12 flex justify-center">
             <Link href="/booking" className="bg-black text-white px-10 py-4 font-black uppercase tracking-tighter hover:bg-[#880808] transition-all flex items-center gap-3 w-full justify-center">
               <Receipt size={18} /> Request Formal Quote
             </Link>
           </div>
 
-          {/* Watermark */}
+          
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.02] pointer-events-none select-none">
             <h2 className="text-[12rem] font-black uppercase -rotate-12">PAID</h2>
           </div>
